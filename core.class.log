@@ -1,0 +1,299 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492604092223@s.whatsapp.net',
+    fromMe: false,
+    id: '93089CD938F20F8FAC',
+    participant: undefined
+  },
+  messageTimestamp: 1725765372,
+  pushName: 'Valentino Verdini',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5492604092223'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_76d42f90-204e-4271-b47e-bea92d8b3a15',
+  keyword: 'key_5055ee05-5ac1-44cc-8242-c79ad2fee0a8',
+  answer: '👋 Hola! Soy *merino bot 🤖*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '55cf4de46e7695abd7a346be590be452'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f3b7d08e-3544-4e85-a283-bded5562fe63',
+  keyword: 'ans_76d42f90-204e-4271-b47e-bea92d8b3a15',
+  answer: '😊 Te voy a ayudar durante tu visita en nuestro local 🖌🎨',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9a932133c0e0eaebad7aa73fb86f5a28'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_f25e7226-a5c8-46a4-a45b-1fa07a2e0fb7',
+  keyword: 'ans_f3b7d08e-3544-4e85-a283-bded5562fe63',
+  answer: '📲 Escribí el *número* de la opción elegida o la *palabra clave* resaltada en *negrita*\n' +
+    '\n' +
+    '*1 - 🖌🎨 Productos* y *marcas* \n' +
+    '*2 - 💸 Promociones* \n' +
+    '*3 - 💰📦 Presupuestos* \n' +
+    '*4 - ❓ Preguntas* generales  (FAQ)\n' +
+    '*5 - 📍¿Donde esta* nuestro *local*? ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object],
+      [Object], [Object], [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f230c14dfad4466c1b47054bf50d1466'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492604092223@s.whatsapp.net',
+    fromMe: false,
+    id: '4971C82D8F4508187A',
+    participant: undefined
+  },
+  messageTimestamp: 1725765378,
+  pushName: 'Valentino Verdini',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '3', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '5492604092223'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b',
+  keyword: 'key_31bdd3ce-5068-456f-8c49-8432a6997a89',
+  answer: '💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '23ab47ef66be83b3349e85c81fe1a64d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e',
+  keyword: 'ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b',
+  answer: '2604817749',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '9c357df5f434155d4087bb11ab01080d'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b8a7685-f132-4346-a98c-0390370d17c6',
+  keyword: 'ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e',
+  answer: '🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n' +
+    '\n' +
+    '📍 En *Google Maps*\n' +
+    'https://maps.app.goo.gl/tn2NnphRrN39pqPA8\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '0596c5a0b4396a953aa8f1bc3425ab07'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703',
+  keyword: 'ans_0b8a7685-f132-4346-a98c-0390370d17c6',
+  answer: '🔙 Para *volver* al *menu* princpial, envia *menu* o 1',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'd43fb7a8a014b40eca5d76bd46a28abb'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492604092223@s.whatsapp.net',
+    fromMe: false,
+    id: '32F892888BC2D44730',
+    participant: undefined
+  },
+  messageTimestamp: 1725765385,
+  pushName: 'Valentino Verdini',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'volver', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'volver',
+  from: '5492604092223'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_40953c27-1528-4af1-a0d3-5a72ee76ce11',
+  keyword: 'key_3c4d18f2-648d-4b02-b585-c47275c7a1ea',
+  answer: '📲 Volviendo... Espere por favor... :)',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a1bec13fef7a283cdd3bbc872c43abca'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5492604092223@s.whatsapp.net',
+    fromMe: false,
+    id: '92CA29EB3DE6B59E1B',
+    participant: undefined
+  },
+  messageTimestamp: 1725765390,
+  pushName: 'Valentino Verdini',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: '1', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '5492604092223'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_fcc49dee-2280-4c44-8dd2-059b17c302ed',
+  keyword: 'key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0',
+  answer: '🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '34ef90631ad6139c4df42398100216d1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9',
+  keyword: 'ans_fcc49dee-2280-4c44-8dd2-059b17c302ed',
+  answer: 'https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e3134b58546d199ef6d06188d9402e88'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9059c517-fad0-4496-b545-e27556df31e2',
+  keyword: 'ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9',
+  answer: '🔙 Para *volver* al *menu* princpial, envia *menu* o 1',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'c28ee0e11e5f765fe22441244b96d234'
+}

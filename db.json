@@ -1,0 +1,4040 @@
+[
+  {
+    "ref": "ans_76d42f90-204e-4271-b47e-bea92d8b3a15",
+    "keyword": "key_5055ee05-5ac1-44cc-8242-c79ad2fee0a8",
+    "answer": "👋 Hola! Soy *merino bot 🤖*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "55cf4de46e7695abd7a346be590be452",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f25e7226-a5c8-46a4-a45b-1fa07a2e0fb7",
+    "keyword": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "answer": "📲 Escribí el *número* de la opción elegida o la *palabra clave* resaltada en *negrita*\n\n*1 - 🖌🎨 Productos* y *marcas* \n*2 - 💸 Promociones* \n*3 - 💰📦 Presupuestos* \n*4 - ❓ Preguntas* generales  (FAQ)\n*5 - 📍¿Donde esta* nuestro *local*? ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "keyword": [
+            "productos",
+            "1",
+            "marcas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "81acd3946c55db30c99d906a303d0d4c"
+        },
+        {
+          "ref": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "keyword": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "answer": "🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "34ef90631ad6139c4df42398100216d1"
+        },
+        {
+          "ref": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "keyword": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "answer": "https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3134b58546d199ef6d06188d9402e88"
+        },
+        {
+          "ref": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "keyword": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c28ee0e11e5f765fe22441244b96d234"
+        },
+        {
+          "ref": "ans_ae01448f-497d-4a0e-a9ba-b7cc4b35095c",
+          "keyword": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "e6d63b9689d6405712fca829a37fa542"
+        },
+        {
+          "ref": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "keyword": [
+            "promociones",
+            "2"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b2ec28a366e5a804f4e7599d8f008073"
+        },
+        {
+          "ref": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "keyword": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "answer": "💸👇 Actualmente, tenemos estas *promociones*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c052cf467143be8b84d5ebb3c03de51b"
+        },
+        {
+          "ref": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "keyword": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "answer": "🎨 🪵 *DANZKE* \nPINTURA PARA *MADERA*\n4LTS $45.000\n1LTS $13.500",
+          "options": {
+            "media": "https://www.petrilac.com.ar/storage/productos/uUCC63qCcQ8hjpNSHI3MY8RwULcyoYnMSHcIR5ZA.png\n",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "22fb79b9e435d91520a734fdce615ad0"
+        },
+        {
+          "ref": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "keyword": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3c014eeccaf4d81c927944c3024c0973"
+        },
+        {
+          "ref": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "keyword": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c3f4e7ff815cc6c0f0fff2dff51778bb"
+        },
+        {
+          "ref": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "keyword": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "44cf7b21db96a02af2f5dbe508631b81"
+        },
+        {
+          "ref": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "keyword": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4e205f4e44c779859322e8508b588d2d"
+        },
+        {
+          "ref": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "keyword": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e80f840f4e6e22e60ea105cf89900d7d"
+        },
+        {
+          "ref": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "keyword": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "91781e03ccb4671af75aa27eb48db50a"
+        },
+        {
+          "ref": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "keyword": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "79ba7bd1a109afeb8da15866b69d0c91"
+        },
+        {
+          "ref": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "keyword": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9b6a5c48cfbdfa3321527c78164d8a8a"
+        },
+        {
+          "ref": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "keyword": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e11b37ebf88e5372063d2cb49027334f"
+        },
+        {
+          "ref": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "keyword": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "bc52f953fd68328f0502a83cd4c4fe4c"
+        },
+        {
+          "ref": "ans_d149a14b-32b4-47ce-8e1e-3725a29166d3",
+          "keyword": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "839d6f4fb7c1ac5a35e88589c89bd772"
+        },
+        {
+          "ref": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "keyword": [
+            "presupuestos",
+            "3"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "64146c1c3fb3c14c1146af1a7adc7e13"
+        },
+        {
+          "ref": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "keyword": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "answer": "💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "23ab47ef66be83b3349e85c81fe1a64d"
+        },
+        {
+          "ref": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "keyword": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "answer": "2604817749",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9c357df5f434155d4087bb11ab01080d"
+        },
+        {
+          "ref": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "keyword": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "answer": "🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n\n📍 En *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0596c5a0b4396a953aa8f1bc3425ab07"
+        },
+        {
+          "ref": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "keyword": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d43fb7a8a014b40eca5d76bd46a28abb"
+        },
+        {
+          "ref": "ans_4291dcc5-8fb0-4b94-9422-466f744ce1f7",
+          "keyword": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "ee10734670ad053d72ec21c975b9c73d"
+        },
+        {
+          "ref": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "keyword": [
+            "ubicacion",
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "82bbbe81b5faa570451f330132141c5d"
+        },
+        {
+          "ref": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "keyword": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "answer": " 🏢📍 ¿Queres saber *donde esta* nuestro *local* ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "37e2922ef009dafbd62eee381037fb0f"
+        },
+        {
+          "ref": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "keyword": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "answer": "🏢 En Av. Bartolomé Mitre 476\n\n📍 O en *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d96b0ce2b3a41ec1fd5aaae7bbb938c4"
+        },
+        {
+          "ref": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "keyword": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "5c455718f1edc04c9c50bf934f0c09a8"
+        },
+        {
+          "ref": "ans_dd7dcc9a-6320-4507-9244-f59ec028297e",
+          "keyword": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81ca619b320d6b0f264a4494ebcffc24"
+        },
+        {
+          "ref": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "keyword": [
+            "preguntas",
+            "4"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c24034343c90043d2b6d9aab4eb64a88"
+        },
+        {
+          "ref": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "keyword": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "answer": "❓👇 Estas son algunas *pregunats frecuentes*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f75e141afada36754ff0aa6f38f1a062"
+        },
+        {
+          "ref": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "keyword": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "answer": "https://youtu.be/NT7bpAB3PcI?si=QXw7qUOpit7Ro8Z9\n🎨 🖌 ¿Cómo Diluyo la pintura?\n☝️ En ese video te explico como",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6438da60a7292037619f90e8c68b17e9"
+        },
+        {
+          "ref": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "keyword": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3328ff4b4aa3b0b8047779f4d817199"
+        },
+        {
+          "ref": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "keyword": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fc4530bbdae05b597eb46756ebdf8d4"
+        },
+        {
+          "ref": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "keyword": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "275c7947b6a36d484c440016aa95cceb"
+        },
+        {
+          "ref": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "keyword": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "05f05703a9a76b069e845464e4d65602"
+        },
+        {
+          "ref": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "keyword": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0dacf393e30a5717e30d07447713b455"
+        },
+        {
+          "ref": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "keyword": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "623884c68b45c6ca529822d5fd381c40"
+        },
+        {
+          "ref": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "keyword": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6f1bbbf4297605c216af5cf1c5c035fa"
+        },
+        {
+          "ref": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "keyword": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e3c440f7754a3e5926b7514e5f045ce"
+        },
+        {
+          "ref": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "keyword": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "57ae33db52e326ac4664626327969c77"
+        },
+        {
+          "ref": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "keyword": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fad43a99bf2e94276fb76de00ce518e"
+        },
+        {
+          "ref": "ans_090c13ff-e5d3-4fe5-9417-6e4639781aa7",
+          "keyword": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "90a096c84ca3d2270d80ac94f6cdc740"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f230c14dfad4466c1b47054bf50d1466",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "keyword": "ans_76d42f90-204e-4271-b47e-bea92d8b3a15",
+    "answer": "😊 Te voy a ayudar durante tu visita en nuestro local 🖌🎨",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9a932133c0e0eaebad7aa73fb86f5a28",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f25e7226-a5c8-46a4-a45b-1fa07a2e0fb7",
+    "keyword": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "answer": "📲 Escribí el *número* de la opción elegida o la *palabra clave* resaltada en *negrita*\n\n*1 - 🖌🎨 Productos* y *marcas* \n*2 - 💸 Promociones* \n*3 - 💰📦 Presupuestos* \n*4 - ❓ Preguntas* generales  (FAQ)\n*5 - 📍¿Donde esta* nuestro *local*? ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "keyword": [
+            "productos",
+            "1",
+            "marcas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "81acd3946c55db30c99d906a303d0d4c"
+        },
+        {
+          "ref": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "keyword": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "answer": "🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "34ef90631ad6139c4df42398100216d1"
+        },
+        {
+          "ref": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "keyword": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "answer": "https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3134b58546d199ef6d06188d9402e88"
+        },
+        {
+          "ref": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "keyword": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c28ee0e11e5f765fe22441244b96d234"
+        },
+        {
+          "ref": "ans_ae01448f-497d-4a0e-a9ba-b7cc4b35095c",
+          "keyword": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "e6d63b9689d6405712fca829a37fa542"
+        },
+        {
+          "ref": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "keyword": [
+            "promociones",
+            "2"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b2ec28a366e5a804f4e7599d8f008073"
+        },
+        {
+          "ref": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "keyword": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "answer": "💸👇 Actualmente, tenemos estas *promociones*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c052cf467143be8b84d5ebb3c03de51b"
+        },
+        {
+          "ref": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "keyword": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "answer": "🎨 🪵 *DANZKE* \nPINTURA PARA *MADERA*\n4LTS $45.000\n1LTS $13.500",
+          "options": {
+            "media": "https://www.petrilac.com.ar/storage/productos/uUCC63qCcQ8hjpNSHI3MY8RwULcyoYnMSHcIR5ZA.png\n",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "22fb79b9e435d91520a734fdce615ad0"
+        },
+        {
+          "ref": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "keyword": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3c014eeccaf4d81c927944c3024c0973"
+        },
+        {
+          "ref": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "keyword": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c3f4e7ff815cc6c0f0fff2dff51778bb"
+        },
+        {
+          "ref": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "keyword": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "44cf7b21db96a02af2f5dbe508631b81"
+        },
+        {
+          "ref": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "keyword": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4e205f4e44c779859322e8508b588d2d"
+        },
+        {
+          "ref": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "keyword": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e80f840f4e6e22e60ea105cf89900d7d"
+        },
+        {
+          "ref": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "keyword": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "91781e03ccb4671af75aa27eb48db50a"
+        },
+        {
+          "ref": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "keyword": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "79ba7bd1a109afeb8da15866b69d0c91"
+        },
+        {
+          "ref": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "keyword": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9b6a5c48cfbdfa3321527c78164d8a8a"
+        },
+        {
+          "ref": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "keyword": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e11b37ebf88e5372063d2cb49027334f"
+        },
+        {
+          "ref": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "keyword": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "bc52f953fd68328f0502a83cd4c4fe4c"
+        },
+        {
+          "ref": "ans_d149a14b-32b4-47ce-8e1e-3725a29166d3",
+          "keyword": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "839d6f4fb7c1ac5a35e88589c89bd772"
+        },
+        {
+          "ref": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "keyword": [
+            "presupuestos",
+            "3"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "64146c1c3fb3c14c1146af1a7adc7e13"
+        },
+        {
+          "ref": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "keyword": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "answer": "💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "23ab47ef66be83b3349e85c81fe1a64d"
+        },
+        {
+          "ref": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "keyword": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "answer": "2604817749",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9c357df5f434155d4087bb11ab01080d"
+        },
+        {
+          "ref": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "keyword": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "answer": "🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n\n📍 En *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0596c5a0b4396a953aa8f1bc3425ab07"
+        },
+        {
+          "ref": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "keyword": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d43fb7a8a014b40eca5d76bd46a28abb"
+        },
+        {
+          "ref": "ans_4291dcc5-8fb0-4b94-9422-466f744ce1f7",
+          "keyword": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "ee10734670ad053d72ec21c975b9c73d"
+        },
+        {
+          "ref": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "keyword": [
+            "ubicacion",
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "82bbbe81b5faa570451f330132141c5d"
+        },
+        {
+          "ref": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "keyword": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "answer": " 🏢📍 ¿Queres saber *donde esta* nuestro *local* ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "37e2922ef009dafbd62eee381037fb0f"
+        },
+        {
+          "ref": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "keyword": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "answer": "🏢 En Av. Bartolomé Mitre 476\n\n📍 O en *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d96b0ce2b3a41ec1fd5aaae7bbb938c4"
+        },
+        {
+          "ref": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "keyword": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "5c455718f1edc04c9c50bf934f0c09a8"
+        },
+        {
+          "ref": "ans_dd7dcc9a-6320-4507-9244-f59ec028297e",
+          "keyword": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81ca619b320d6b0f264a4494ebcffc24"
+        },
+        {
+          "ref": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "keyword": [
+            "preguntas",
+            "4"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c24034343c90043d2b6d9aab4eb64a88"
+        },
+        {
+          "ref": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "keyword": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "answer": "❓👇 Estas son algunas *pregunats frecuentes*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f75e141afada36754ff0aa6f38f1a062"
+        },
+        {
+          "ref": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "keyword": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "answer": "https://youtu.be/NT7bpAB3PcI?si=QXw7qUOpit7Ro8Z9\n🎨 🖌 ¿Cómo Diluyo la pintura?\n☝️ En ese video te explico como",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6438da60a7292037619f90e8c68b17e9"
+        },
+        {
+          "ref": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "keyword": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3328ff4b4aa3b0b8047779f4d817199"
+        },
+        {
+          "ref": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "keyword": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fc4530bbdae05b597eb46756ebdf8d4"
+        },
+        {
+          "ref": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "keyword": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "275c7947b6a36d484c440016aa95cceb"
+        },
+        {
+          "ref": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "keyword": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "05f05703a9a76b069e845464e4d65602"
+        },
+        {
+          "ref": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "keyword": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0dacf393e30a5717e30d07447713b455"
+        },
+        {
+          "ref": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "keyword": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "623884c68b45c6ca529822d5fd381c40"
+        },
+        {
+          "ref": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "keyword": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6f1bbbf4297605c216af5cf1c5c035fa"
+        },
+        {
+          "ref": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "keyword": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e3c440f7754a3e5926b7514e5f045ce"
+        },
+        {
+          "ref": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "keyword": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "57ae33db52e326ac4664626327969c77"
+        },
+        {
+          "ref": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "keyword": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fad43a99bf2e94276fb76de00ce518e"
+        },
+        {
+          "ref": "ans_090c13ff-e5d3-4fe5-9417-6e4639781aa7",
+          "keyword": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "90a096c84ca3d2270d80ac94f6cdc740"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f230c14dfad4466c1b47054bf50d1466",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f25e7226-a5c8-46a4-a45b-1fa07a2e0fb7",
+    "keyword": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "answer": "📲 Escribí el *número* de la opción elegida o la *palabra clave* resaltada en *negrita*\n\n*1 - 🖌🎨 Productos* y *marcas* \n*2 - 💸 Promociones* \n*3 - 💰📦 Presupuestos* \n*4 - ❓ Preguntas* generales  (FAQ)\n*5 - 📍¿Donde esta* nuestro *local*? ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "keyword": [
+            "productos",
+            "1",
+            "marcas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "81acd3946c55db30c99d906a303d0d4c"
+        },
+        {
+          "ref": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "keyword": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "answer": "🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "34ef90631ad6139c4df42398100216d1"
+        },
+        {
+          "ref": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "keyword": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "answer": "https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3134b58546d199ef6d06188d9402e88"
+        },
+        {
+          "ref": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "keyword": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c28ee0e11e5f765fe22441244b96d234"
+        },
+        {
+          "ref": "ans_ae01448f-497d-4a0e-a9ba-b7cc4b35095c",
+          "keyword": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "e6d63b9689d6405712fca829a37fa542"
+        },
+        {
+          "ref": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "keyword": [
+            "promociones",
+            "2"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b2ec28a366e5a804f4e7599d8f008073"
+        },
+        {
+          "ref": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "keyword": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "answer": "💸👇 Actualmente, tenemos estas *promociones*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c052cf467143be8b84d5ebb3c03de51b"
+        },
+        {
+          "ref": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "keyword": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "answer": "🎨 🪵 *DANZKE* \nPINTURA PARA *MADERA*\n4LTS $45.000\n1LTS $13.500",
+          "options": {
+            "media": "https://www.petrilac.com.ar/storage/productos/uUCC63qCcQ8hjpNSHI3MY8RwULcyoYnMSHcIR5ZA.png\n",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "22fb79b9e435d91520a734fdce615ad0"
+        },
+        {
+          "ref": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "keyword": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3c014eeccaf4d81c927944c3024c0973"
+        },
+        {
+          "ref": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "keyword": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c3f4e7ff815cc6c0f0fff2dff51778bb"
+        },
+        {
+          "ref": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "keyword": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "44cf7b21db96a02af2f5dbe508631b81"
+        },
+        {
+          "ref": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "keyword": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4e205f4e44c779859322e8508b588d2d"
+        },
+        {
+          "ref": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "keyword": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e80f840f4e6e22e60ea105cf89900d7d"
+        },
+        {
+          "ref": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "keyword": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "91781e03ccb4671af75aa27eb48db50a"
+        },
+        {
+          "ref": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "keyword": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "79ba7bd1a109afeb8da15866b69d0c91"
+        },
+        {
+          "ref": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "keyword": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9b6a5c48cfbdfa3321527c78164d8a8a"
+        },
+        {
+          "ref": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "keyword": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e11b37ebf88e5372063d2cb49027334f"
+        },
+        {
+          "ref": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "keyword": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "bc52f953fd68328f0502a83cd4c4fe4c"
+        },
+        {
+          "ref": "ans_d149a14b-32b4-47ce-8e1e-3725a29166d3",
+          "keyword": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "839d6f4fb7c1ac5a35e88589c89bd772"
+        },
+        {
+          "ref": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "keyword": [
+            "presupuestos",
+            "3"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "64146c1c3fb3c14c1146af1a7adc7e13"
+        },
+        {
+          "ref": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "keyword": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "answer": "💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "23ab47ef66be83b3349e85c81fe1a64d"
+        },
+        {
+          "ref": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "keyword": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "answer": "2604817749",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9c357df5f434155d4087bb11ab01080d"
+        },
+        {
+          "ref": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "keyword": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "answer": "🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n\n📍 En *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0596c5a0b4396a953aa8f1bc3425ab07"
+        },
+        {
+          "ref": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "keyword": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d43fb7a8a014b40eca5d76bd46a28abb"
+        },
+        {
+          "ref": "ans_4291dcc5-8fb0-4b94-9422-466f744ce1f7",
+          "keyword": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "ee10734670ad053d72ec21c975b9c73d"
+        },
+        {
+          "ref": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "keyword": [
+            "ubicacion",
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "82bbbe81b5faa570451f330132141c5d"
+        },
+        {
+          "ref": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "keyword": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "answer": " 🏢📍 ¿Queres saber *donde esta* nuestro *local* ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "37e2922ef009dafbd62eee381037fb0f"
+        },
+        {
+          "ref": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "keyword": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "answer": "🏢 En Av. Bartolomé Mitre 476\n\n📍 O en *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d96b0ce2b3a41ec1fd5aaae7bbb938c4"
+        },
+        {
+          "ref": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "keyword": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "5c455718f1edc04c9c50bf934f0c09a8"
+        },
+        {
+          "ref": "ans_dd7dcc9a-6320-4507-9244-f59ec028297e",
+          "keyword": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81ca619b320d6b0f264a4494ebcffc24"
+        },
+        {
+          "ref": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "keyword": [
+            "preguntas",
+            "4"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c24034343c90043d2b6d9aab4eb64a88"
+        },
+        {
+          "ref": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "keyword": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "answer": "❓👇 Estas son algunas *pregunats frecuentes*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f75e141afada36754ff0aa6f38f1a062"
+        },
+        {
+          "ref": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "keyword": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "answer": "https://youtu.be/NT7bpAB3PcI?si=QXw7qUOpit7Ro8Z9\n🎨 🖌 ¿Cómo Diluyo la pintura?\n☝️ En ese video te explico como",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6438da60a7292037619f90e8c68b17e9"
+        },
+        {
+          "ref": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "keyword": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3328ff4b4aa3b0b8047779f4d817199"
+        },
+        {
+          "ref": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "keyword": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fc4530bbdae05b597eb46756ebdf8d4"
+        },
+        {
+          "ref": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "keyword": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "275c7947b6a36d484c440016aa95cceb"
+        },
+        {
+          "ref": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "keyword": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "05f05703a9a76b069e845464e4d65602"
+        },
+        {
+          "ref": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "keyword": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0dacf393e30a5717e30d07447713b455"
+        },
+        {
+          "ref": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "keyword": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "623884c68b45c6ca529822d5fd381c40"
+        },
+        {
+          "ref": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "keyword": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6f1bbbf4297605c216af5cf1c5c035fa"
+        },
+        {
+          "ref": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "keyword": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e3c440f7754a3e5926b7514e5f045ce"
+        },
+        {
+          "ref": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "keyword": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "57ae33db52e326ac4664626327969c77"
+        },
+        {
+          "ref": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "keyword": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fad43a99bf2e94276fb76de00ce518e"
+        },
+        {
+          "ref": "ans_090c13ff-e5d3-4fe5-9417-6e4639781aa7",
+          "keyword": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "90a096c84ca3d2270d80ac94f6cdc740"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f230c14dfad4466c1b47054bf50d1466",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "72e4929d-83f3-4a85-8359-69372e67fafd",
+    "keyword": "f230c14dfad4466c1b47054bf50d1466",
+    "answer": "3",
+    "options": {},
+    "from": "5492604092223",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+    "keyword": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+    "answer": "💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "23ab47ef66be83b3349e85c81fe1a64d",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+    "keyword": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+    "answer": "2604817749",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9c357df5f434155d4087bb11ab01080d",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+    "keyword": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+    "answer": "🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n\n📍 En *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "0596c5a0b4396a953aa8f1bc3425ab07",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+    "keyword": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+    "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+          "keyword": [
+            "volver",
+            "menu",
+            "atrás",
+            "1"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+        },
+        {
+          "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+          "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+          "answer": "📲 Volviendo... Espere por favor... :)",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d43fb7a8a014b40eca5d76bd46a28abb",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "23371000-e6bb-42c4-a65f-ac1801dba279",
+    "keyword": "d43fb7a8a014b40eca5d76bd46a28abb",
+    "answer": "volver",
+    "options": {},
+    "from": "5492604092223",
+    "refSerialize": "018cac753e4f10698ed08fa94473a9a9"
+  },
+  {
+    "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+    "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+    "answer": "📲 Volviendo... Espere por favor... :)",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_76d42f90-204e-4271-b47e-bea92d8b3a15",
+    "keyword": "key_5055ee05-5ac1-44cc-8242-c79ad2fee0a8",
+    "answer": "👋 Hola! Soy *merino bot 🤖*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "55cf4de46e7695abd7a346be590be452",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "keyword": "ans_76d42f90-204e-4271-b47e-bea92d8b3a15",
+    "answer": "😊 Te voy a ayudar durante tu visita en nuestro local 🖌🎨",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9a932133c0e0eaebad7aa73fb86f5a28",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_f25e7226-a5c8-46a4-a45b-1fa07a2e0fb7",
+    "keyword": "ans_f3b7d08e-3544-4e85-a283-bded5562fe63",
+    "answer": "📲 Escribí el *número* de la opción elegida o la *palabra clave* resaltada en *negrita*\n\n*1 - 🖌🎨 Productos* y *marcas* \n*2 - 💸 Promociones* \n*3 - 💰📦 Presupuestos* \n*4 - ❓ Preguntas* generales  (FAQ)\n*5 - 📍¿Donde esta* nuestro *local*? ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "keyword": [
+            "productos",
+            "1",
+            "marcas"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "81acd3946c55db30c99d906a303d0d4c"
+        },
+        {
+          "ref": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "keyword": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+          "answer": "🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "34ef90631ad6139c4df42398100216d1"
+        },
+        {
+          "ref": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "keyword": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+          "answer": "https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3134b58546d199ef6d06188d9402e88"
+        },
+        {
+          "ref": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "keyword": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c28ee0e11e5f765fe22441244b96d234"
+        },
+        {
+          "ref": "ans_ae01448f-497d-4a0e-a9ba-b7cc4b35095c",
+          "keyword": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "e6d63b9689d6405712fca829a37fa542"
+        },
+        {
+          "ref": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "keyword": [
+            "promociones",
+            "2"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b2ec28a366e5a804f4e7599d8f008073"
+        },
+        {
+          "ref": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "keyword": "key_e49d9feb-be99-4d43-b823-8880d5af318f",
+          "answer": "💸👇 Actualmente, tenemos estas *promociones*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c052cf467143be8b84d5ebb3c03de51b"
+        },
+        {
+          "ref": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "keyword": "ans_e7eb8a1c-ef77-4a36-adfe-6efbfc88b517",
+          "answer": "🎨 🪵 *DANZKE* \nPINTURA PARA *MADERA*\n4LTS $45.000\n1LTS $13.500",
+          "options": {
+            "media": "https://www.petrilac.com.ar/storage/productos/uUCC63qCcQ8hjpNSHI3MY8RwULcyoYnMSHcIR5ZA.png\n",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "22fb79b9e435d91520a734fdce615ad0"
+        },
+        {
+          "ref": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "keyword": "ans_2eaf96af-191c-4791-b7e3-da62ac9217db",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3c014eeccaf4d81c927944c3024c0973"
+        },
+        {
+          "ref": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "keyword": "ans_32d95f07-c8f2-4ea5-98da-1022750d7c82",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c3f4e7ff815cc6c0f0fff2dff51778bb"
+        },
+        {
+          "ref": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "keyword": "ans_cee74beb-e3e0-4536-a3b2-960100af26d2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "44cf7b21db96a02af2f5dbe508631b81"
+        },
+        {
+          "ref": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "keyword": "ans_b8ee3f6e-3378-4305-a44d-675e400bcb26",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "4e205f4e44c779859322e8508b588d2d"
+        },
+        {
+          "ref": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "keyword": "ans_1d2c0d33-4139-4146-bad8-8aed4453b3a0",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e80f840f4e6e22e60ea105cf89900d7d"
+        },
+        {
+          "ref": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "keyword": "ans_e4bd5a43-c934-4a1e-8b3d-39a7b25f3d5f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "91781e03ccb4671af75aa27eb48db50a"
+        },
+        {
+          "ref": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "keyword": "ans_d478a785-2617-474b-9d18-b92e1b0c434e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "79ba7bd1a109afeb8da15866b69d0c91"
+        },
+        {
+          "ref": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "keyword": "ans_22346ad9-2839-4769-9f67-7572413bdf2f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9b6a5c48cfbdfa3321527c78164d8a8a"
+        },
+        {
+          "ref": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "keyword": "ans_4b531682-4292-40c0-95f6-b88859dcb916",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e11b37ebf88e5372063d2cb49027334f"
+        },
+        {
+          "ref": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "keyword": "ans_081a88dd-d0b1-4e81-bc4d-d0486656998f",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "bc52f953fd68328f0502a83cd4c4fe4c"
+        },
+        {
+          "ref": "ans_d149a14b-32b4-47ce-8e1e-3725a29166d3",
+          "keyword": "ans_3c62c30b-9303-4b4e-9a16-e76fcd9756b0",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "839d6f4fb7c1ac5a35e88589c89bd772"
+        },
+        {
+          "ref": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "keyword": [
+            "presupuestos",
+            "3"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "64146c1c3fb3c14c1146af1a7adc7e13"
+        },
+        {
+          "ref": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "keyword": "key_31bdd3ce-5068-456f-8c49-8432a6997a89",
+          "answer": "💰📦 Para hacerte un *presupuesto personalizado* acorde a tus medidas, enviá un *mensaje* haciendole *click* a este *telefono*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "23ab47ef66be83b3349e85c81fe1a64d"
+        },
+        {
+          "ref": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "keyword": "ans_d2c70d9f-68a6-4bb9-bf18-25576db9650b",
+          "answer": "2604817749",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9c357df5f434155d4087bb11ab01080d"
+        },
+        {
+          "ref": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "keyword": "ans_6aa0ad2d-12bf-4125-b969-e7a63e8d4e7e",
+          "answer": "🏢 o pasate por nuestro *local*, en Av. Bartolomé Mitre 476\n\n📍 En *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0596c5a0b4396a953aa8f1bc3425ab07"
+        },
+        {
+          "ref": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "keyword": "ans_0b8a7685-f132-4346-a98c-0390370d17c6",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d43fb7a8a014b40eca5d76bd46a28abb"
+        },
+        {
+          "ref": "ans_4291dcc5-8fb0-4b94-9422-466f744ce1f7",
+          "keyword": "ans_aa0af632-cc85-4f6a-b67c-dbb6cc4e4703",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "ee10734670ad053d72ec21c975b9c73d"
+        },
+        {
+          "ref": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "keyword": [
+            "ubicacion",
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "82bbbe81b5faa570451f330132141c5d"
+        },
+        {
+          "ref": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "keyword": "key_bcecac64-1ae0-47a9-bd1f-8630150c87fd",
+          "answer": " 🏢📍 ¿Queres saber *donde esta* nuestro *local* ?",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "37e2922ef009dafbd62eee381037fb0f"
+        },
+        {
+          "ref": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "keyword": "ans_cfc4c261-4c57-4de6-b2b1-3432db65d68c",
+          "answer": "🏢 En Av. Bartolomé Mitre 476\n\n📍 O en *Google Maps*\nhttps://maps.app.goo.gl/tn2NnphRrN39pqPA8\n",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "d96b0ce2b3a41ec1fd5aaae7bbb938c4"
+        },
+        {
+          "ref": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "keyword": "ans_51c39b1a-4dd8-4eb3-a3d5-0c275a699a93",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "5c455718f1edc04c9c50bf934f0c09a8"
+        },
+        {
+          "ref": "ans_dd7dcc9a-6320-4507-9244-f59ec028297e",
+          "keyword": "ans_20294ea1-6ff6-4e41-b030-a9779b9fb22c",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "81ca619b320d6b0f264a4494ebcffc24"
+        },
+        {
+          "ref": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "keyword": [
+            "preguntas",
+            "4"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "c24034343c90043d2b6d9aab4eb64a88"
+        },
+        {
+          "ref": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "keyword": "key_fdf455e1-23a2-4b31-a4af-bccc2abe7d59",
+          "answer": "❓👇 Estas son algunas *pregunats frecuentes*\n_Espera mientras Carga_",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f75e141afada36754ff0aa6f38f1a062"
+        },
+        {
+          "ref": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "keyword": "ans_9fae2a80-3b90-4d53-8255-c7c3201aad65",
+          "answer": "https://youtu.be/NT7bpAB3PcI?si=QXw7qUOpit7Ro8Z9\n🎨 🖌 ¿Cómo Diluyo la pintura?\n☝️ En ese video te explico como",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6438da60a7292037619f90e8c68b17e9"
+        },
+        {
+          "ref": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "keyword": "ans_18ef973a-4ca0-4809-8ab6-eb27d9a96aee",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "e3328ff4b4aa3b0b8047779f4d817199"
+        },
+        {
+          "ref": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "keyword": "ans_d1f93403-e86c-4339-bc98-b184daf970a2",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fc4530bbdae05b597eb46756ebdf8d4"
+        },
+        {
+          "ref": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "keyword": "ans_ba63276a-8cbf-4096-87a0-552daadd75dc",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "275c7947b6a36d484c440016aa95cceb"
+        },
+        {
+          "ref": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "keyword": "ans_61324f78-6819-4aa0-9fc3-d6fc75727501",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "05f05703a9a76b069e845464e4d65602"
+        },
+        {
+          "ref": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "keyword": "ans_a55ba2ae-6bc4-4fd3-b06a-a4d4481a975e",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0dacf393e30a5717e30d07447713b455"
+        },
+        {
+          "ref": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "keyword": "ans_f7cf4ca9-f90c-4b05-81b2-8e9425440a80",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "623884c68b45c6ca529822d5fd381c40"
+        },
+        {
+          "ref": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "keyword": "ans_0a880f14-dde2-4d50-8d19-992c9d018c57",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "6f1bbbf4297605c216af5cf1c5c035fa"
+        },
+        {
+          "ref": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "keyword": "ans_4fc9a5a2-23dc-4f66-99cb-dcf499d441c4",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e3c440f7754a3e5926b7514e5f045ce"
+        },
+        {
+          "ref": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "keyword": "ans_2ff43d6a-c8f0-4ec1-9fe1-5b3307d80b6f",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "57ae33db52e326ac4664626327969c77"
+        },
+        {
+          "ref": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "keyword": "ans_804c7317-a74c-4cbd-a92f-e3215a5e5971",
+          "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [
+              {
+                "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "keyword": [
+                  "volver",
+                  "menu",
+                  "atrás",
+                  "1"
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+              },
+              {
+                "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+                "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+                "answer": "📲 Volviendo... Espere por favor... :)",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "idle": null,
+                  "ref": null,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "9fad43a99bf2e94276fb76de00ce518e"
+        },
+        {
+          "ref": "ans_090c13ff-e5d3-4fe5-9417-6e4639781aa7",
+          "keyword": "ans_82932ae7-1084-4287-826c-a1df0496f796",
+          "answer": null,
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "90a096c84ca3d2270d80ac94f6cdc740"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "f230c14dfad4466c1b47054bf50d1466",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "4a500db0-5963-492f-afb1-c001f48ff803",
+    "keyword": "f230c14dfad4466c1b47054bf50d1466",
+    "answer": "1",
+    "options": {},
+    "from": "5492604092223",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+    "keyword": "key_e83f6acb-3abe-44c0-ab4b-c767ddc433c0",
+    "answer": "🌐 Para ver que *productos y marcas* ofrecemos, haz *click* en el siguiente *link*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "34ef90631ad6139c4df42398100216d1",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+    "keyword": "ans_fcc49dee-2280-4c44-8dd2-059b17c302ed",
+    "answer": "https://sites.google.com/view/los-merino-pinturera/inicio?authuser=1",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e3134b58546d199ef6d06188d9402e88",
+    "from": "5492604092223"
+  },
+  {
+    "ref": "ans_9059c517-fad0-4496-b545-e27556df31e2",
+    "keyword": "ans_36ce888a-c9d9-4449-a05b-748a0c13f6e9",
+    "answer": "🔙 Para *volver* al *menu* princpial, envia *menu* o 1",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [
+        {
+          "ref": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+          "keyword": [
+            "volver",
+            "menu",
+            "atrás",
+            "1"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "7a62c76a0fb50a400e80b9e418d12aa0"
+        },
+        {
+          "ref": "ans_40953c27-1528-4af1-a0d3-5a72ee76ce11",
+          "keyword": "key_3c4d18f2-648d-4b02-b585-c47275c7a1ea",
+          "answer": "📲 Volviendo... Espere por favor... :)",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "ref": null,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a1bec13fef7a283cdd3bbc872c43abca"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "c28ee0e11e5f765fe22441244b96d234",
+    "from": "5492604092223"
+  }
+]
